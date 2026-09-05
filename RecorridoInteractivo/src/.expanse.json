@@ -129,6 +129,34 @@
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
+    },
+    "30f6cedb-0f4d-4491-8024-10b9cde0cf95": {
+      "id": "30f6cedb-0f4d-4491-8024-10b9cde0cf95",
+      "position": [
+        -4.098844137579819,
+        0.3885580484053659,
+        3.1828011257801947
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Mapa_Target",
+      "imageTarget": {
+        "name": "Mapa_Target"
+      },
+      "order": 3.086167691137212
     }
   },
   "spaces": {
