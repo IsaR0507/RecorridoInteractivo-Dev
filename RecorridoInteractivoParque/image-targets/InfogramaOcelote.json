@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 73,
+    "left": 0,
+    "width": 849,
+    "height": 1132,
+    "isRotated": false,
+    "originalWidth": 849,
+    "originalHeight": 1278
+  },
+  "imagePath": "image-targets/InfogramaOcelote_luminance.jpg",
+  "metadata": null,
+  "name": "InfogramaOcelote",
+  "resources": {
+    "originalImage": "InfogramaOcelote_original.jpg",
+    "croppedImage": "InfogramaOcelote_cropped.jpg",
+    "thumbnailImage": "InfogramaOcelote_thumbnail.jpg",
+    "luminanceImage": "InfogramaOcelote_luminance.jpg"
+  },
+  "created": 1788667392193,
+  "updated": 1788667392193
+}
