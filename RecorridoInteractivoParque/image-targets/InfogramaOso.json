@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 2,
+    "left": 16,
+    "width": 532,
+    "height": 709,
+    "isRotated": true,
+    "originalWidth": 622,
+    "originalHeight": 730
+  },
+  "imagePath": "image-targets/InfogramaOso_luminance.jpg",
+  "metadata": null,
+  "name": "InfogramaOso",
+  "resources": {
+    "originalImage": "InfogramaOso_original.jpg",
+    "croppedImage": "InfogramaOso_cropped.jpg",
+    "thumbnailImage": "InfogramaOso_thumbnail.jpg",
+    "luminanceImage": "InfogramaOso_luminance.jpg"
+  },
+  "created": 1788667510155,
+  "updated": 1788667520204
+}

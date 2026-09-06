@@ -1,0 +1,281 @@
+{
+  "objects": {
+    "ac1989e3-3b71-49e2-a05f-e682aeb18c36": {
+      "id": "ac1989e3-3b71-49e2-a05f-e682aeb18c36",
+      "position": [
+        20,
+        20,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Directional Light",
+      "light": {
+        "type": "directional",
+        "intensity": 1
+      }
+    },
+    "9c311ef2-d1e4-41df-aadd-f0b9a451fe5c": {
+      "id": "9c311ef2-d1e4-41df-aadd-f0b9a451fe5c",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Ambient Light",
+      "light": {
+        "type": "ambient"
+      }
+    },
+    "f8a37603-1f26-46aa-8b6f-fa4dd7dd111d": {
+      "id": "f8a37603-1f26-46aa-8b6f-fa4dd7dd111d",
+      "position": [
+        0,
+        1.682763945668494,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "InfogramaOso",
+      "imageTarget": {
+        "name": "InfogramaOso"
+      },
+      "order": 1.8189058090249617
+    },
+    "c7808834-523d-4447-b50d-818578f9f869": {
+      "id": "c7808834-523d-4447-b50d-818578f9f869",
+      "position": [
+        0,
+        2,
+        3.65301642399559
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "Cámara",
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "disabled",
+          "headset": "disabled"
+        }
+      },
+      "order": 3.16966834837634
+    },
+    "4b712db6-cf80-4b1e-a79c-b040f3c391cf": {
+      "id": "4b712db6-cf80-4b1e-a79c-b040f3c391cf",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "27d88111-21cc-4955-9477-978a48bf78ae": {
+          "id": "27d88111-21cc-4955-9477-978a48bf78ae",
+          "name": "habitat-animal",
+          "parameters": {
+            "oso": {
+              "type": "entity",
+              "id": "f8a37603-1f26-46aa-8b6f-fa4dd7dd111d"
+            },
+            "ocelote": {
+              "type": "entity",
+              "id": "a44b88fc-e74b-493b-b9c6-0fe73cfadf96"
+            },
+            "guacamaya": {
+              "type": "entity",
+              "id": "a99ccc0b-e1dd-435c-a733-1669d50adb10"
+            },
+            "mono": {
+              "type": "entity",
+              "id": "a1eb733e-10d3-43bb-8b9b-f46277afac27"
+            }
+          }
+        }
+      },
+      "name": "ControladorHabitat-animal",
+      "order": 4.464483898811647
+    },
+    "a99ccc0b-e1dd-435c-a733-1669d50adb10": {
+      "id": "a99ccc0b-e1dd-435c-a733-1669d50adb10",
+      "position": [
+        0,
+        1.6625148698105885,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "InfogramaGuacamaya",
+      "imageTarget": {
+        "name": "InfogramaGuacamaya"
+      },
+      "order": 5.9805773797544886
+    },
+    "a1eb733e-10d3-43bb-8b9b-f46277afac27": {
+      "id": "a1eb733e-10d3-43bb-8b9b-f46277afac27",
+      "position": [
+        0,
+        1.5670180458950875,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "InfogramaMono",
+      "imageTarget": {
+        "name": "InfogramaMono"
+      },
+      "order": 7.642350466851791
+    },
+    "a44b88fc-e74b-493b-b9c6-0fe73cfadf96": {
+      "id": "a44b88fc-e74b-493b-b9c6-0fe73cfadf96",
+      "position": [
+        0,
+        1.5699218966994435,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "name": "InfogramaOcelote",
+      "imageTarget": {
+        "name": "InfogramaOcelote"
+      },
+      "order": 8.70837835644889
+    },
+    "b6d4878f-47bd-43c2-a9c1-7f1e6697fa60": {
+      "id": "b6d4878f-47bd-43c2-a9c1-7f1e6697fa60",
+      "position": [
+        0,
+        1.68730172756805,
+        0.9086631614612849
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "ui": {
+        "width": 150,
+        "height": 10,
+        "text": "Alejate un poco y apunta al suelo",
+        "color": "#ffffff",
+        "fontSize": 12,
+        "type": "3d",
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        }
+      },
+      "name": "TextoSuperficie",
+      "order": 10.274166177669075
+    }
+  }
+}
